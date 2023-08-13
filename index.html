@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Adarsh - Portfolio</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<nav id="one">
+				<div class="left">Adarsh's Portfolio</div>
+				<div class="right">
+					<ul>
+						<li><a href="#header">Home</a></li>
+						<li><a href ="#about">About</a></li>
+						<li><a href="#qualification">Qualification</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#contactme">Contact Me</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section id="firstSection">
+				<div class="leftSection">
+					Hi, My name is <span class="purple">Adarsh</span>
+					<div>and I am a passionate</div>
+					<span id="element"></span>
+				</div>
+				<div class="rightSection">
+				<img src="images/portfolio.png" alt="arj_pic">
+				</div>
+			</section>
+			<!-----about----->
+			<div id="about">
+				<div class="container">
+					<div class="row">
+						<div class="col-1">
+							<img src="images/a.png" alt="arj_pic">
+						</div>
+						<div class="col-2">
+							<h1 class="sub-title">About Me</h1>
+							<p> Welcome to my portfolio! I am Adarsh Rupesh Jadhav an enthusiast Computer Science and 
+								Engineering Student specializing in html , css and javascript.
+								I like developing web applications which are much more efficient to solve real life problems.
+								I'm dedicated to explore and learn new technologies in this field for giving my best out of it.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-----Qualification----->
+			<div id="qualification">
+				<h1 class="educa">Qualification</h1>
+				
+				<div class="edu left-edu">
+					<img src="images/flogo.png" alt="logo">
+					<div class="textbox">
+						<h2>Adarsh Institute Of Technology And Research Centre , Vita</h2>
+						<small>2021 - 2025</small>
+						<p>B-Tech , Computer Science And Engineering</p>
+					</div>
+				</div>
+				<div class="edu right-edu">
+					<img src="images/flogo.png" alt="logo">
+					<div class="textbox">
+						<h2>Government Vocational Higher Secondary School , Vengara</h2>
+						<small>2019 - 2021</small>
+						<p>Higher Secondary Education (11th and 12th) in Science</p>
+					</div>
+				</div>
+				<div class="edu left-edu">
+					<img src="images/flogo.png" alt="logo">
+					<div class="textbox">
+						<h2>Gems Public School , Kooriyad</h2>
+						<small>2014 - 2019</small>
+						<p>High School Education (5th to 10th) </p>
+					</div>
+				</div>
+				<div class="edu right-edu">
+					<img src="images/flogo.png" alt="logo">
+					<div class="textbox">
+						<h2>Shalom English Medium School , Vengara</h2>
+						<small>2008 - 2014</small>
+						<p>Primary School Education (LKG to 4th) </p>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!-----skills----->
+			<div id="skills">
+				<div class="inner">
+					<div class="heading">
+						<h1>My Skills</h1>
+					</div>
+				<div class="contains">
+					<div class="skill-box">
+						<div class="skill-title">
+							<div class="imgs">
+								<img src="images/html.png" class ="skill-icon">
+							</div>
+							<h3>HTML 5</h3>
+						</div>
+						<p>HTML gives structure to our website</p>
+					</div>
+					
+					<div class="skill-box">
+						<div class="skill-title">
+							<div class="imgs">
+								<img src="images/css.png" class ="skill-icon">
+							</div>
+							<h3>CSS</h3>
+						</div>
+						<p>CSS beautfies our website and look like more attractive</p>
+					</div>
+					
+					<div class="skill-box">
+						<div class="skill-title">
+							<div class="imgs">
+								<img src="images/js.png" class ="skill-icon">
+							</div>
+							<h3>JAVA SCRIPT</h3>
+						</div>
+						<p>JAVA SCRIPT makes our website dynamic in nature and user friendly</p>
+					</div>
+			<!------Contact----->
+			<div id="contactme">
+			<div class="main">
+		 <div class="title">Contact me</div>
+            <div class="title-info">I'll get back to you soon!</div>
+
+            <form action="" method="" class="form">
+                <div class="input-group">
+                    <input type="text" name="first_name" id="first-name" placeholder="First name">
+                    <label for="first-name">First name</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+                    <label for="last-name">Last name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                    <label for="e-mail">e-mail</label>
+                </div>
+
+                <div class="textarea-group">
+                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+			</div>
+			</div>
+		</main>
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+		 <!-- Setup and start animation! -->
+		  <script>
+			var typed = new Typed('#element', {
+			  strings: ['Web Developer'],
+			  typeSpeed: 50,
+			});
+		  </script>
+	</body>
+</html>
+
